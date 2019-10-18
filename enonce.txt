@@ -1,0 +1,67 @@
+NOM PRENOM :
+
+PARTIE 1 : QUESTIONS DE COURS :
+
+1. Nous sommes en quelle version de Java ?
+
+2. Citez 3 atouts du langage java. Comparez aux langages C/C++ , Visual Basic et PHP
+
+3. Que signifient JME ? JSE ? JEE ?
+
+4. Qu'est ce qu'une classe ?
+
+5. Qu'est ce qu'un objet ?
+
+6. Qu'est ce qu'un package ?
+
+7. Quel lien entre un objet et une classe ? Quelles différences physiques ?
+
+8. A quoi sert la méthode main() d'une classe ?
+
+9. Qu'est ce que l'encapsulation ?
+
+10. Que sont les getters / setters ? Exemple ?
+
+11. Qu'est ce que la signature d'une méthode ?
+
+12. Quelle différences entre JRE et JDK ?
+
+13. Qu'est ce qu'une machine virtuelle (JVM)?
+
+14. Classez par ordre croissant de visibilité : public, default, private, protected
+
+15. Qu'est ce que l'Héritage ?
+
+16. Qu'es ce que le polymorphisme ?
+
+17. Que signifie le surcharge des methodes ?
+
+18. Que signifie redefinition des methodes ?
+
+19. Quelle différence entre variable, attributs, arguments ?
+
+20. C'est quoi le garbage collector ?
+
+PARTIE 2 : MISE EN OEUVRE TECHNIQUE
+1. Ecrire en java dans la couche metier le diagramme de classe du fichier Metier.pdf 
+
+
+2.Dans la couche service créer:
+ - la méthode d'ajout d'une commande à un client:
+public void ajouterCommandeClient(Client c,Produit p, int quantite) 
+
+- la méthode de listage des commande d'un client
+public List<Commande> listerCommandeClient(Client c)
+
+- BONUS: la methode de suppression d'une commande d'un client
+public void supprimerCommandeClient(Client c,Produit p)
+
+Dans le lanceur:
+3. créer 2 clients 
+4. créer plusieurs produits
+5. Pour un client donné lui ajouter la commande de 2 produits
+6. Pour au autre client lui ajouter la commande de 3 produits
+7. afficher les clients créées ainsi que leurs commmandes effectuées
+8. documenter et generer la javadoc de votre projet
+9. créer le fichier .jar de votre projet
+10. Ne pas oublier à la fin d'envoyer votre projet sur le github
